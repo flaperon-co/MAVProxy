@@ -2,6 +2,11 @@
 
 MAVProxy
 
+pip uninstall MAVProxy  
+git clone https://github.com/ArduPilot/MAVProxy.git  
+python setup.py build install --user  
+
+
 This is a MAVLink ground station written in python. 
 
 Please see https://ardupilot.org/mavproxy/index.html for more information
