@@ -2,10 +2,6 @@
 
 MAVProxy
 
-pip uninstall MAVProxy  
-git clone https://github.com/ArduPilot/MAVProxy.git  
-python setup.py build install --user  
-
 
 This is a MAVLink ground station written in python. 
 
@@ -31,3 +27,8 @@ Lead Developers: Andrew Tridgell and Peter Barker
 Windows Maintainer: Stephen Dade
 
 MacOS Maintainer: Rhys Mainwaring
+
+
+pip uninstall MAVProxy  
+git clone https://github.com/ArduPilot/MAVProxy.git  
+python setup.py build install --user  
