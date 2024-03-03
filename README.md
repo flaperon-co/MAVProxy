@@ -30,5 +30,4 @@ MacOS Maintainer: Rhys Mainwaring
 
 
 pip uninstall MAVProxy  
-git clone https://github.com/ArduPilot/MAVProxy.git  
 python setup.py build install --user  
